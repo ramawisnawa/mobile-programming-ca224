@@ -102,9 +102,9 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
 
 // List of contacts
 final List<String> contactNames = [
-  'Jro novri',
-  'Mylovee',
-  'Bimanata',
+  'ayuu',
+  'mulyono',
+  'agus',
 ];
 
 // Function to get random colors for profile avatars
