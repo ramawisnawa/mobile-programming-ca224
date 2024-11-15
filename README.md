@@ -1,6 +1,6 @@
-# myapp
+# I Ketut Bagus Alit Rama Wisnawa (22040228)
 
-A new Flutter project.
+<img width="299" alt="tugas_pertemuan" src="https://github.com/user-attachments/assets/b5839dd9-c5de-4944-9999-d7bdd2ffdd66">
 
 ## Getting Started
 
