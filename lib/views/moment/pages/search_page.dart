@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/widgets/post_item_search.dart';
+import 'package:myapp/views/moment/widgets/post_item_search.dart';
 
 class SearchPage extends StatelessWidget {
   const SearchPage({super.key});

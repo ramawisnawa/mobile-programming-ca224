@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:myapp/pages/home_page.dart';
-import 'package:myapp/pages/list_comments_page.dart';
-import 'package:myapp/pages/search_page.dart';
-import 'package:myapp/resources/colors.dart';
+import 'package:myapp/views/common/pages/home_page.dart';
+import 'package:myapp/views/moment/pages/list_comments_page.dart';
+import 'package:myapp/views/moment/pages/search_page.dart';
+import 'package:myapp/core/resources/colors.dart';
 // ignore: unused_import
-import 'package:myapp/pages/create_comment.dart';
+import 'package:myapp/views/moment/pages/create_comment.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
