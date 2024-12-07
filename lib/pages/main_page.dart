@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:myapp/pages/home_page.dart';
+import 'package:myapp/pages/list_comments_page.dart';
 import 'package:myapp/pages/search_page.dart';
 import 'package:myapp/resources/colors.dart';
+// ignore: unused_import
 import 'package:myapp/pages/create_comment.dart';
 
 class MainPage extends StatefulWidget {
@@ -24,14 +26,13 @@ class _MainPageState extends State<MainPage> {
   }
 
   // List widget untuk setiap page
- final List<Widget> _pages = [
+final List<Widget> _pages = [
   const HomePage(),
   const SearchPage(),
-  CreateCommentPage(),
+  const ListCommentsPage(),
   const Center(child: Text('This is the activity page.')),
   const Center(child: Text('This is the profile page.')),
 ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
